@@ -1,5 +1,5 @@
 ---
-name: crypto-market-sentiment
+name: market-sentiment
 description: Aggregate news from popular cryptocurrency RSS feeds, analyze sentiment of articles, and calculate an overall market sentiment score with detailed explanation. Use when assessing crypto market sentiment for trading decisions, research, or monitoring trends from RSS sources.
 ---
 
