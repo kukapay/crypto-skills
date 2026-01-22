@@ -27,7 +27,7 @@ A comprehensive tool for interacting with Ethereum Virtual Machine (EVM)-compati
 
 This skill enables AI agents to perform low-level blockchain operations across multiple EVM networks like Ethereum, Polygon, BNB Smart Chain, and more.
 
-### Crypto Market Sentiment
+### Market Sentiment
 A comprehensive tool for analyzing cryptocurrency market sentiment by aggregating news from popular RSS feeds and performing sentiment analysis. Supports:
 
 - RSS feed aggregation from multiple crypto news sources
