@@ -4,17 +4,6 @@ This repository provides a collection of specialized AI agent skills focused on 
 
 ## Current Skills
 
-### Token Minter
-A comprehensive tool for generating, building, and deploying custom ERC20 tokens on EVM networks. Supports:
-
-- Custom token parameters (name, symbol, decimals, initial supply)
-- Automatic Solidity contract generation using OpenZeppelin standards
-- Foundry project setup and dependency management
-- Contract compilation and deployment to various networks
-- Support for testnets like Sepolia
-
-This skill enables AI agents to create and deploy custom ERC20 tokens with full control over token parameters and deployment targets.
-
 ### EVM Swiss Knife
 A comprehensive tool for interacting with Ethereum Virtual Machine (EVM)-compatible blockchains using Foundry's `cast` command-line tool. Supports:
 
@@ -36,6 +25,26 @@ A comprehensive tool for analyzing cryptocurrency market sentiment by aggregatin
 - Evidence-based explanations with article breakdowns
 
 This skill helps AI agents assess overall market mood for trading decisions, research, and trend monitoring.
+
+### Meme Scout
+A comprehensive tool for scouting trending meme coins on DEX platforms like DexScreener. Supports:
+
+- Discovering trending tokens with multiple timeframes (5m, 1h, 6h, 24h)
+- Analyzing price movements, volume data, and risk assessments
+- Risk checking capabilities for specific tokens on Solana and other chains
+
+This skill enables AI agents to identify and evaluate trending meme coins for trading and research purposes.
+
+### Token Minter
+A comprehensive tool for generating, building, and deploying custom ERC20 tokens on EVM networks. Supports:
+
+- Custom token parameters (name, symbol, decimals, initial supply)
+- Automatic Solidity contract generation using OpenZeppelin standards
+- Foundry project setup and dependency management
+- Contract compilation and deployment to various networks
+- Support for testnets like Sepolia
+
+This skill enables AI agents to create and deploy custom ERC20 tokens with full control over token parameters and deployment targets.
 
 ## Installation
 
