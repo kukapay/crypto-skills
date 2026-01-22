@@ -16,6 +16,16 @@ A comprehensive tool for interacting with Ethereum Virtual Machine (EVM)-compati
 
 This skill enables AI agents to perform low-level blockchain operations across multiple EVM networks like Ethereum, Polygon, BNB Smart Chain, and more.
 
+### Crypto Market Sentiment
+A comprehensive tool for analyzing cryptocurrency market sentiment by aggregating news from popular RSS feeds and performing sentiment analysis. Supports:
+
+- RSS feed aggregation from multiple crypto news sources
+- Automated sentiment classification (positive/negative/neutral)
+- Market sentiment scoring (range: -1 to +1)
+- Evidence-based explanations with article breakdowns
+
+This skill helps AI agents assess overall market mood for trading decisions, research, and trend monitoring.
+
 ## Installation
 
 Install these skills using the Skills CLI:
@@ -25,11 +35,11 @@ Install these skills using the Skills CLI:
 npx skills add kukapay/crypto-skills
 ```
 
-Or you can install a sinle skill:
+Or you can install a single skill:
 
 
 ```bash
-npx skills add kukapay/crypto-skills --skill "evm-skill-knife"
+npx skills add kukapay/crypto-skills --skill "evm-swiss-knife"
 ```
 
 This command will download and configure the crypto skills for your AI agent.
@@ -38,9 +48,8 @@ For more information about the Skills CLI, visit [https://skills.sh/docs/cli](ht
 
 ## Future Expansion
 
-This repository is actively maintained and will expand with additional crypto-related skills in the near future, including:
+This repository is actively maintained and will continue to expand with additional crypto-related skills, including:
 
-- Price tracking and market analysis tools
 - DeFi protocol interactions
 - Wallet management utilities
 - Cross-chain bridge operations
