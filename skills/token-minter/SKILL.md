@@ -37,8 +37,8 @@ Use the provided script to generate the ERC20 contract code based on user parame
 - Ensure a local cast wallet is created (prerequisite)
 - Get RPC URL for target network from https://chainlist.org/rpcs.json
   - Find the network entry and use a reliable HTTPS RPC URL
-  - For Sepolia: typically "https://rpc.sepolia.org" or similar
-- Deploy using: `cast send --rpc-url <network_rpc> --account <account_name> <contract_address> "constructor(uint256)" <initial_supply>`
+  - For Sepolia: typically "https://ethereum-sepolia.publicnode.com" or similar
+- Deploy using: `forge create --rpc-url <network_rpc> --account <account_name> src/Contract.sol:MyToken --constructor-args <initial_supply> --broadcast`
 - Verify deployment on the target network
 
 ## Prerequisites

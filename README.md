@@ -4,6 +4,17 @@ This repository provides a collection of specialized AI agent skills focused on 
 
 ## Current Skills
 
+### Token Minter
+A comprehensive tool for generating, building, and deploying custom ERC20 tokens on EVM networks. Supports:
+
+- Custom token parameters (name, symbol, decimals, initial supply)
+- Automatic Solidity contract generation using OpenZeppelin standards
+- Foundry project setup and dependency management
+- Contract compilation and deployment to various networks
+- Support for testnets like Sepolia
+
+This skill enables AI agents to create and deploy custom ERC20 tokens with full control over token parameters and deployment targets.
+
 ### EVM Swiss Knife
 A comprehensive tool for interacting with Ethereum Virtual Machine (EVM)-compatible blockchains using Foundry's `cast` command-line tool. Supports:
 
