@@ -2,6 +2,26 @@
 
 This repository provides a collection of specialized AI agent skills focused on cryptocurrency and blockchain operations. These skills enhance AI agents with the ability to interact with various blockchain networks, query market data, and perform crypto-related tasks.
 
+## Installation
+
+Install these skills using the Skills CLI:
+
+
+```bash
+npx skills add kukapay/crypto-skills
+```
+
+Or you can install a single skill:
+
+
+```bash
+npx skills add kukapay/crypto-skills --skill "evm-swiss-knife"
+```
+
+This command will download and configure the crypto skills for your AI agent.
+
+For more information about the Skills CLI, visit [https://skills.sh/docs/cli](https://skills.sh/docs/cli).
+
 ## Current Skills
 
 ### EVM Swiss Knife
@@ -46,25 +66,16 @@ A comprehensive tool for generating, building, and deploying custom ERC20 tokens
 
 This skill enables AI agents to create and deploy custom ERC20 tokens with full control over token parameters and deployment targets.
 
-## Installation
+### Trading Strategist
+A comprehensive tool for generating trading strategies for cryptocurrencies by combining Binance market data, technical analysis indicators, and market sentiment analysis. Supports:
 
-Install these skills using the Skills CLI:
+- Real-time price and historical data from Binance API
+- Technical indicators (SMA, EMA, RSI, Bollinger Bands, MACD, Stochastic)
+- Integration with market sentiment scores
+- Strategy recommendations with entry/exit points and risk management
+- Support for major cryptocurrencies like BTC, ETH, BNB
 
-
-```bash
-npx skills add kukapay/crypto-skills
-```
-
-Or you can install a single skill:
-
-
-```bash
-npx skills add kukapay/crypto-skills --skill "evm-swiss-knife"
-```
-
-This command will download and configure the crypto skills for your AI agent.
-
-For more information about the Skills CLI, visit [https://skills.sh/docs/cli](https://skills.sh/docs/cli).
+This skill enables AI agents to provide data-driven trading advice and strategy analysis.
 
 ## Future Expansion
 
