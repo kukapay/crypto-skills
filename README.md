@@ -77,6 +77,21 @@ A comprehensive tool for generating trading strategies for cryptocurrencies by c
 
 This skill enables AI agents to provide data-driven trading advice and strategy analysis.
 
+### Yield Opportunities
+A comprehensive tool for finding and analyzing DeFi yield opportunities across protocols, chains, and asset types. Supports:
+
+- Parallel research workflows using librarian agents for comprehensive data collection
+- Staking analysis (native delegation, liquid staking, restaking)
+- Lending protocol yield comparison (Aave, Venus, Alpaca, etc.)
+- Liquidity pool farming analysis (Uniswap, PancakeSwap, Curve, etc.)
+- Yield aggregator vault tracking (Beefy, Yearn, Autofarm, ACryptoS)
+- Cross-chain bridging yield opportunities
+- Risk assessment framework with 8-category scoring system
+- Protocol security checklist and due diligence
+- Automated scripts for fetching and comparing yields
+
+This skill enables AI agents to provide comprehensive DeFi yield research with current APY/APR data, risk analysis, and tailored recommendations across multiple blockchains (Ethereum, BSC, Solana, Arbitrum, Optimism, Polygon, etc.).
+
 ## Future Expansion
 
 This repository is actively maintained and will continue to expand with additional crypto-related skills, including:
