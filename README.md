@@ -36,6 +36,11 @@ A comprehensive tool for interacting with Ethereum Virtual Machine (EVM)-compati
 
 This skill enables AI agents to perform low-level blockchain operations across multiple EVM networks like Ethereum, Polygon, BNB Smart Chain, and more.
 
+**Install:**
+```bash
+npx skills add kukapay/crypto-skills --skill "evm-swiss-knife"
+```
+
 ### Market Sentiment
 A comprehensive tool for analyzing cryptocurrency market sentiment by aggregating news from popular RSS feeds and performing sentiment analysis. Supports:
 
@@ -46,6 +51,11 @@ A comprehensive tool for analyzing cryptocurrency market sentiment by aggregatin
 
 This skill helps AI agents assess overall market mood for trading decisions, research, and trend monitoring.
 
+**Install:**
+```bash
+npx skills add kukapay/crypto-skills --skill "market-sentiment"
+```
+
 ### Meme Scout
 A comprehensive tool for scouting trending meme coins on DEX platforms like DexScreener. Supports:
 
@@ -54,6 +64,11 @@ A comprehensive tool for scouting trending meme coins on DEX platforms like DexS
 - Risk checking capabilities for specific tokens on Solana and other chains
 
 This skill enables AI agents to identify and evaluate trending meme coins for trading and research purposes.
+
+**Install:**
+```bash
+npx skills add kukapay/crypto-skills --skill "meme-scout"
+```
 
 ### Token Minter
 A comprehensive tool for generating, building, and deploying custom ERC20 tokens on EVM networks. Supports:
@@ -66,6 +81,11 @@ A comprehensive tool for generating, building, and deploying custom ERC20 tokens
 
 This skill enables AI agents to create and deploy custom ERC20 tokens with full control over token parameters and deployment targets.
 
+**Install:**
+```bash
+npx skills add kukapay/crypto-skills --skill "token-minter"
+```
+
 ### Trading Strategist
 A comprehensive tool for generating trading strategies for cryptocurrencies by combining Binance market data, technical analysis indicators, and market sentiment analysis. Supports:
 
@@ -76,6 +96,11 @@ A comprehensive tool for generating trading strategies for cryptocurrencies by c
 - Support for major cryptocurrencies like BTC, ETH, BNB
 
 This skill enables AI agents to provide data-driven trading advice and strategy analysis.
+
+**Install:**
+```bash
+npx skills add kukapay/crypto-skills --skill "trading-strategist"
+```
 
 ### Yield Opportunities
 A comprehensive tool for finding and analyzing DeFi yield opportunities across protocols, chains, and asset types. Supports:
@@ -91,6 +116,11 @@ A comprehensive tool for finding and analyzing DeFi yield opportunities across p
 - Automated scripts for fetching and comparing yields
 
 This skill enables AI agents to provide comprehensive DeFi yield research with current APY/APR data, risk analysis, and tailored recommendations across multiple blockchains (Ethereum, BSC, Solana, Arbitrum, Optimism, Polygon, etc.).
+
+**Install:**
+```bash
+npx skills add kukapay/crypto-skills --skill "yield-opportunities"
+```
 
 ## Future Expansion
 
