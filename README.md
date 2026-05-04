@@ -2,6 +2,10 @@
 
 This repository provides a collection of specialized AI agent skills focused on cryptocurrency and blockchain operations. These skills enhance AI agents with the ability to interact with various blockchain networks, query market data, and perform crypto-related tasks.
 
+**Note:** If you’re looking for more crypto/Web3/blockchain-related agent skills, you can explore our curated repository:
+[https://github.com/kukapay/awesome-crypto-skills](https://github.com/kukapay/awesome-crypto-skills)
+
+
 ## Installation
 
 Install these skills using the Skills CLI:
